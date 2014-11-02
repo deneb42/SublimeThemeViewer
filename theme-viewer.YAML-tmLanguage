@@ -1,0 +1,304 @@
+# [PackageDev] target_format: plist, ext: tmLanguage
+---
+name: Theme Viewer
+scopeName: source.theme-viewer
+fileTypes: [theme-viewer]
+uuid: e11b9ee0-d213-4cfb-8a7b-5711fbf7067b
+
+patterns:
+- comment: variable.other
+  name: variable.other.theme-viewer
+  match: variable\.other
+
+- comment: variable.language
+  name: variable.language.theme-viewer
+  match: variable\.language
+
+- comment: variable.parameter
+  name: variable.parameter.theme-viewer
+  match: variable\.parameter
+
+- comment: variable
+  name: variable.theme-viewer
+  match: variable
+
+- comment: support.other
+  name: support.other.theme-viewer
+  match: support\.other
+
+- comment: support.variable
+  name: support.variable.theme-viewer
+  match: support\.variable
+
+- comment: support.constant
+  name: support.constant.theme-viewer
+  match: support\.constant
+
+- comment: support.type
+  name: support.type.theme-viewer
+  match: support\.type
+
+- comment: support.class
+  name: support.class.theme-viewer
+  match: support\.class
+
+- comment: support.function
+  name: support.function.theme-viewer
+  match: support\.function
+
+- comment: support
+  name: support.theme-viewer
+  match: support
+
+- comment: string.other
+  name: string.other.theme-viewer
+  match: string\.other
+
+- comment: string.regexp
+  name: string.regexp.theme-viewer
+  match: string\.regexp
+
+- comment: string.interpolated
+  name: string.interpolated.theme-viewer
+  match: string\.interpolated
+
+- comment: string.unquoted
+  name: string.unquoted.theme-viewer
+  match: string\.unquoted
+
+- comment: string.quoted.other
+  name: string.quoted.other.theme-viewer
+  match: string\.quoted\.other
+
+- comment: string.quoted.triple
+  name: string.quoted.triple.theme-viewer
+  match: string\.quoted\.triple
+
+- comment: string.quoted.double
+  name: string.quoted.double.theme-viewer
+  match: string\.quoted\.double
+
+- comment: string.quoted.single
+  name: string.quoted.single.theme-viewer
+  match: string\.quoted\.single
+
+- comment: string.quoted
+  name: string.quoted.theme-viewer
+  match: string\.quoted
+
+- comment: string
+  name: string.theme-viewer
+  match: string
+
+- comment: storage.modifier
+  name: storage.modifier.theme-viewer
+  match: storage\.modifier
+
+- comment: storage.type
+  name: storage.type.theme-viewer
+  match: storage\.type
+
+- comment: storage
+  name: storage.theme-viewer
+  match: storage
+
+- comment: meta
+  name: meta.theme-viewer
+  match: meta
+
+- comment: markup.other
+  name: markup.other.theme-viewer
+  match: markup\.other
+
+- comment: markup.raw
+  name: markup.raw.theme-viewer
+  match: markup\.raw
+
+- comment: markup.quote
+  name: markup.quote.theme-viewer
+  match: markup\.quote
+
+- comment: markup.list.unnumbered
+  name: markup.list.unnumbered.theme-viewer
+  match: markup\.list\.unnumbered
+
+- comment: markup.list.numbered
+  name: markup.list.numbered.theme-viewer
+  match: markup\.list\.numbered
+
+- comment: markup.list
+  name: markup.list.theme-viewer
+  match: markup\.list
+
+- comment: markup.italic
+  name: markup.italic.theme-viewer
+  match: markup\.italic
+
+- comment: markup.heading.6
+  name: markup.heading.6.theme-viewer
+  match: markup\.heading\.6
+
+- comment: markup.heading.5
+  name: markup.heading.5.theme-viewer
+  match: markup\.heading\.5
+
+- comment: markup.heading.4
+  name: markup.heading.4.theme-viewer
+  match: markup\.heading\.4
+
+- comment: markup.heading.3
+  name: markup.heading.3.theme-viewer
+  match: markup\.heading\.3
+
+- comment: markup.heading.2
+  name: markup.heading.2.theme-viewer
+  match: markup\.heading\.2
+
+- comment: markup.heading.1
+  name: markup.heading.1.theme-viewer
+  match: markup\.heading\.1
+
+- comment: markup.heading
+  name: markup.heading.theme-viewer
+  match: markup\.heading
+
+- comment: markup.bold
+  name: markup.bold.theme-viewer
+  match: markup\.bold
+
+- comment: markup.underline.link
+  name: markup.underline.link.theme-viewer
+  match: markup\.underline\.link
+
+- comment: markup.underline
+  name: markup.underline.theme-viewer
+  match: markup\.underline
+
+- comment: markup
+  name: markup.theme-viewer
+  match: markup
+
+- comment: keyword.other
+  name: keyword.other.theme-viewer
+  match: keyword\.other
+
+- comment: keyword.operator
+  name: keyword.operator.theme-viewer
+  match: keyword\.operator
+
+- comment: keyword.control
+  name: keyword.control.theme-viewer
+  match: keyword\.control
+
+- comment: keyword
+  name: keyword.theme-viewer
+  match: keyword
+
+- comment: invalid.deprecated
+  name: invalid.deprecated.theme-viewer
+  match: invalid\.deprecated
+
+- comment: invalid.illegal
+  name: invalid.illegal.theme-viewer
+  match: invalid\.illegal
+
+- comment: invalid
+  name: invalid.theme-viewer
+  match: invalid
+
+- comment: entity.other.attribute-name
+  name: entity.other.attribute-name.theme-viewer
+  match: entity\.other\.attribute\-name
+
+- comment: entity.other.inherited-class
+  name: entity.other.inherited-class.theme-viewer
+  match: entity\.other\.inherited\-class
+
+- comment: entity.other
+  name: entity.other.theme-viewer
+  match: entity\.other
+
+- comment: entity.name.section
+  name: entity.name.section.theme-viewer
+  match: entity\.name\.section
+
+- comment: entity.name.tag
+  name: entity.name.tag.theme-viewer
+  match: entity\.name\.tag
+
+- comment: entity.name.type
+  name: entity.name.type.theme-viewer
+  match: entity\.name\.type
+
+- comment: entity.name.function
+  name: entity.name.function.theme-viewer
+  match: entity\.name\.function
+
+- comment: entity.name
+  name: entity.name.theme-viewer
+  match: entity\.name
+
+- comment: entity
+  name: entity.theme-viewer
+  match: entity
+
+- comment: constant.other
+  name: constant.other.theme-viewer
+  match: constant\.other
+
+- comment: constant.language
+  name: constant.language.theme-viewer
+  match: constant\.language
+
+- comment: constant.character.escape
+  name: constant.character.escape.theme-viewer
+  match: constant\.character\.escape
+
+- comment: constant.character
+  name: constant.character.theme-viewer
+  match: constant\.character
+
+- comment: constant.numeric
+  name: constant.numeric.theme-viewer
+  match: constant\.numeric
+
+- comment: constant
+  name: constant.theme-viewer
+  match: constant
+
+- comment: comment.block.documentation
+  name: comment.block.documentation.theme-viewer
+  match: comment\.block\.documentation
+
+- comment: comment.block
+  name: comment.block.theme-viewer
+  match: comment\.block
+
+- comment: comment.line.character
+  name: comment.line.character.theme-viewer
+  match: comment\.line\.character
+
+- comment: comment.line.percentage
+  name: comment.line.percentage.theme-viewer
+  match: comment\.line\.percentage
+
+- comment: comment.line.number-sign
+  name: comment.line.number-sign.theme-viewer
+  match: comment\.line\.number\-sign
+
+- comment: comment.line.double-dash
+  name: comment.line.double-dash.theme-viewer
+  match: comment\.line\.double\-dash
+
+- comment: comment.line.double-slash
+  name: comment.line.double-slash.theme-viewer
+  match: comment\.line\.double\-slash
+
+- comment: comment.line
+  name: comment.line.theme-viewer
+  match: comment\.line
+
+- comment: comment
+  name: comment.theme-viewer
+  match: comment
+...
