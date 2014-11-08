@@ -1,20 +1,21 @@
 [
     {
+        "caption": "Tools",
         "id": "tools",
         "children":
         [
             {
-                "id": "packages",
-                "caption": "Packages",
+                "caption": "Theme Viewer",
+                "id": "theme-viewer",
                 "children":
                 [
                     {
-                        "caption": "Theme Viewer",
-                        "id": "theme_viewer",
-                        "children":
-                        [
-                            { "caption": "Open Sample", "command": "open_file", "args": "Packages/ThemeViewer/theme_viewer.theme_viewer"},
-                        ]
+                        "caption": "Open Sample",
+                        "id": "open-sample",
+                        "command": "open_file", "args": 
+                        {
+                            "file": "${packages}/ThemeViewer/theme-viewer.theme-viewer"
+                        }
                     }
                 ]
             }

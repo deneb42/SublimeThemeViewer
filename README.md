@@ -12,7 +12,7 @@ Else, you can put the files inside **\<package-dir\>/User/**
 
 Use
 ===
-Simply open the **theme-viewer.theme-viewer** file inside the package :
-the file will be automaticaly colored.  
+Simply open the **theme-viewer.theme-viewer** file inside the package : the file will be automaticaly colored.  
+(There is a menu entry to open it easily : Tools/Theme Viewer/Open Sample)  
 By changing your theme, you can see its coloration for each of the Textmate standard scopes.  
 The syntax definition is easily tweakable to add custom scope. You can do that by directly modifying the **theme-viewer.tmLanguage**, or better, the **theme-viewer.YAML-tmLanguage** file with the _AAAPackageDev_.
